@@ -1,0 +1,432 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Roboto', sans-serif;
+
+}
+h1,h2,h3,h4, .menu{
+	text-transform: uppercase;
+}
+p{
+	line-height: 25px;
+}
+a{
+	text-decoration: none;
+}
+/* -----------------------
+		slider section Start
+----------------------- */
+#slider{
+	background-image: url('img/bg1.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+}
+.overlay{
+	background-color: rgba(0,0,0, .3)
+}
+.container{
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.container .slider-top{
+
+}
+.container .slider-top .logo{
+	width: 20%;
+	float: left;
+}
+.container .slider-top .logo img{
+
+}
+.container .slider-top .menu{
+	width: 80%;
+	float: right;
+	line-height: 81px;
+}
+.container .slider-top .menu ul{
+	float: right;
+}
+.container .slider-top .menu ul li{
+	list-style: none;
+    display: inline-block;
+}
+.container .slider-top .menu ul li a{
+	text-decoration: none;
+    font-size: 15px;
+    padding: 10px 17px;
+    color: #fff;
+    font-weight: 200;
+
+}
+.container .slider-top .menu ul li a:hover{
+	color:  #87d37c;
+}
+.container .slider-content{
+	padding: 200px 0px;
+    text-align: center;
+    color: white;
+}
+.container .slider-content h4{
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 38px;
+}
+.container .slider-content h2{
+	font-size: 60px;
+    font-weight: 500;
+    border: 2px solid;
+    display: inline;
+    padding: 24px 50px;
+}
+.container .slider-content h2 span{
+	color: #87d37c;
+}
+.container .slider-content h5{
+	font-size: 40px;
+    margin-top: 34px;
+    font-weight: 500;
+}
+
+/* -----------------------
+		slider section End
+----------------------- */
+
+	/* -----------------------
+		About us section Start
+----------------------- */
+#about-section{
+
+}
+
+#about-section .container {}
+#about-section .container .about-top{
+	text-align: center;
+	padding-top: 106px;
+}
+#about-section .container .about-top h3{
+
+}
+#about-section .container .about-top p{
+	width: 700px;
+    text-align: center;
+    margin: 0 auto;
+}
+#about-section .container .about{
+	padding-top: 50px;
+	 width: 21%;
+    float: left;
+    margin: 0px 22px;
+    text-align: justify;
+}
+#about-section .container .about i{
+	text-align: center;
+	font-size: 67px;
+    width: 100%;
+}
+#about-section .container .about h3{    
+	text-align: center;
+}
+
+#about-section .container .about p{}
+/* ---------------------------------
+		service us section Start
+----------------------- -----------------*/
+#service-section{
+	background: #e1e1e1;
+	padding: 50px 0px;
+}
+#service-section .container .service-top{
+	text-align: center;
+}
+
+#service-section .container .service-top h3{
+	font-size: 34px;
+    margin: 0px;
+}
+#service-section .container .service-top p{
+	width: 700px;
+    margin: 0 auto;
+    padding: 20px 0px;
+}
+#service-section .container .services{
+	padding: 14px 0px;
+    text-align: center;
+
+}
+#service-section .container .services .image{
+	    float: left;
+    	width: 23%;
+    padding: 17px;
+}
+#service-section .container .services .image img{
+	width: 100%;
+
+	
+}
+/* ---------------------------------
+		service us section end
+----------------------- -----------------*/
+
+/* ---------------------------------
+		Protfolio section Start
+----------------------- -----------------*/
+#protfolio-section{
+
+}
+#protfolio-section .container{
+
+}
+
+#protfolio-section .container .protfolio-top{
+	margin-top: 100px;
+}
+
+#protfolio-section .container .protfolio-top h3,#price-section .container .price-top h3{
+	font-size: 34px;
+    text-align: center;
+}
+
+#protfolio-section .container .protfolio-top p,#price-section .container .price-top p{
+	width: 700px;
+    text-align: center;
+    margin: 0 auto;
+}
+#protfolio-section .container .protfolio-middle .button{
+	text-align: center;
+    margin: 20px 0px;
+    padding-top: 20px;
+}
+#protfolio-section .container .protfolio-middle .button button a{
+	font-size: 14px;
+	color: white;
+	text-transform: uppercase;}
+#protfolio-section .container .protfolio-middle .button button{
+	padding: 10px 15px;
+    border: none;
+    background: black;
+    
+    
+}
+#protfolio-section .container .galary{
+
+}
+
+#protfolio-section .container .galary .galary-img{
+}
+#protfolio-section .container .galary .galary-img img{
+	float: left;
+    width: 30%;
+    padding: 15px
+}
+
+/* ---------------------------------
+		Protfolio section End
+----------------------- -----------------*/
+		/* -----------------------
+		Price section start
+		----------------------- */
+#price-section{
+
+}
+#price-section .container{
+	
+}
+
+#price-section .container .price-top{
+	
+}
+
+#price-section .container .price-top h3{
+	
+}
+
+#price-section .container .price-top p{
+	
+}
+#price-section .container .price-detaile{
+	
+}
+#price-section .container .price-detaile>div{
+	width: 22%;
+    background-color: #39393a;
+    float: left;
+    margin: 10px;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+}
+#price-section .container .price-detaile>div:hover{
+	background-color: #87d37c;
+}
+#price-section .container .price-detaile>div .price{
+	width: 150px;
+    height: 150px;
+    border: 3px solid white;
+    border-radius: 50%;
+    margin: 32px auto;
+
+}
+#price-section .container .price-detaile>div .price p{
+	margin: 25%;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: -1px;
+}
+#price-section .container .price-detaile>div .details  p{
+	padding: 5px;
+    padding-top: 30px;
+    border-bottom: 1px solid;
+    width: 40%;
+    margin: 0 auto;
+}
+#price-section .container .price-detaile>div button{
+	background-color: white;
+    display: inline;
+    padding: 13px 35px;
+    margin: 20px;
+    border: none;
+    font-weight: bold;
+}
+#price-section .container .price-detaile>div button a{
+	text-decoration: none;
+	color: black;
+}
+#price-section .price-fotter{
+	margin: 90px 0px;
+	background-image: url('img/bg2.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#price-section .price-fotter .overlay .container .contents{
+	width: 70%;
+    margin: 0 auto;
+}
+#price-section .price-fotter .overlay .container {
+	background-color: rgba(0,0,0, .5);
+	width: 100%;
+}
+#price-section .price-fotter .overlay .container .contents>div{
+	width: 20%;
+    color: white;
+    float: left;
+    border: 1px solid;
+    text-align: center;
+    margin: 163px 20px;
+    padding: 5px 50px;
+    box-sizing: border-box;
+}
+#price-section .price-fotter .overlay .container .contents h3{
+	font-size: 40px;
+    margin: 0px;
+}
+		
+		 /* -----------------------
+		Price section End
+		----------------------- - */
+
+
+
+		/* -----------------------
+		contuct section start
+		----------------------- - */
+		#contuct-section{
+			padding-top: 100px; 
+		}
+.contuct-top{
+	text-align: center;
+    margin: 50px 0px;
+		}
+.contuct-top h3{
+	font-size: 34px;
+}
+.contuct-top p{
+	width: 700px;
+	margin: 0 auto;
+}
+.contuct-middle{
+
+}
+.contuct-middle>div{
+	width: 21%;
+    float: left;
+    text-align: center;
+    margin: 0 20px;
+}
+.contuct-middle>div i{
+	font-size: 60px;
+}
+.contuct-middle>div h5{
+	font-size: 20px;
+    margin-bottom: 0px;
+
+}
+.contuct-middle>div p{
+	margin: 0;
+}
+.contuct-form{
+	display: flex;
+}
+.contuct-form .form{
+	width: 49%;
+}
+
+.contuct-form .form input{
+	width: 80%;
+    margin: 20px;
+    padding: 10px;
+}
+.contuct-form .message{
+	width: 49%;
+    padding: 20px;
+}
+.contuct-form .message #text{
+	width: 100%;
+	height: 150px;
+}
+
+.contuct-form .message input{
+	padding: 10px 20px;
+    color: white;
+    background: green;
+    border: none;
+}
+.map img{
+	width: 100%;
+    object-fit: cover;
+}
+
+
+		/* -----------------------
+		contuct section end
+		----------------------- - */
+		/* -----------------------
+		fotter section start
+		----------------------- - */
+#fotter .conatiner{
+	color: white;
+    background: black;
+
+    display: flex;
+}
+#fotter .conatiner .copywrite{
+	width: 70%;
+	text-align: center;
+}
+#fotter .conatiner .social-icons{
+	margin: 0 auto;
+}
+#fotter .conatiner .social-icons i{
+	color: white;
+    padding: 0px 15px;
+    font-size: 30px;
+    line-height: 55px;
+}
+#fotter .conatiner .social-icons i:hover{
+	color: #87d37c;
+}
+/* -----------------------
+		fotter section end
+		----------------------- - */
