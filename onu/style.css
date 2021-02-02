@@ -107,7 +107,7 @@ a{
 	padding-top: 106px;
 }
 #about-section .container .about-top h3{
-
+	    font-size: 34px;
 }
 #about-section .container .about-top p{
 	width: 700px;
@@ -120,6 +120,9 @@ a{
     float: left;
     margin: 0px 22px;
     text-align: justify;
+}
+#about-section .container .about i:hover{
+	    color: #87d37c;
 }
 #about-section .container .about i{
 	text-align: center;
@@ -158,13 +161,55 @@ a{
 }
 #service-section .container .services .image{
 	    float: left;
-    	width: 23%;
-    padding: 17px;
+    	width: 22%;
+    	padding: 17px;
 }
-#service-section .container .services .image img{
-	width: 100%;
+#service-section .container .services .image .one, .tow, .three, .four{
+	background: url("img/service.jpg");
+    height: 243px;
+    width: 100%;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.one:after,.tow:after,.three:after,.four:after{
+	content: "Hi";
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    background: rgb(32 140 32 / 91%);
+    overflow: hidden;
+    left: 100%;
+    top: 50%;
+    transition: .4s;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 60px;
+    transform: translate(0%, -50%);
+    opacity: .7;
+    color: white;
+    border: 1px solid;
+}
+.one:hover:after,.tow:hover:after,.three:hover:after,.four:hover:after{
+	    left: 50%;
+}
 
-	
+.services .image .tow{
+	background: url('img/service1.jpg');
+	 background-size: cover;
+    background-repeat: no-repeat;
+}
+.services .image .three{
+	background: url('img/service2.jpg');
+	 background-size: cover;
+    background-repeat: no-repeat;
+}
+.services .image .four{
+	background: url('img/service3.jpg');
+	 background-size: cover;
+    background-repeat: no-repeat;
 }
 /* ---------------------------------
 		service us section end
@@ -199,6 +244,9 @@ a{
     margin: 20px 0px;
     padding-top: 20px;
 }
+#protfolio-section .container .protfolio-middle .button button:hover{
+	background-color: #244f1e;
+}
 #protfolio-section .container .protfolio-middle .button button a{
 	font-size: 14px;
 	color: white;
@@ -207,8 +255,8 @@ a{
 	padding: 10px 15px;
     border: none;
     background: black;
-    
-    
+    box-shadow: 0 5px 3px grey;
+    border-radius: 5px;  
 }
 #protfolio-section .container .galary{
 
@@ -219,7 +267,12 @@ a{
 #protfolio-section .container .galary .galary-img img{
 	float: left;
     width: 30%;
-    padding: 15px
+    padding: 15px;
+    transition: .3s;
+}
+#protfolio-section .container .galary .galary-img img:hover{
+	transform: scale(1.02);
+    box-shadow: 5px 5px 5px grey, -5px -5px 5px grey;
 }
 
 /* ---------------------------------
@@ -257,6 +310,7 @@ a{
     border-radius: 5px;
     color: white;
     text-align: center;
+    transition: .5s ease;
 }
 #price-section .container .price-detaile>div:hover{
 	background-color: #87d37c;
@@ -267,6 +321,9 @@ a{
     border: 3px solid white;
     border-radius: 50%;
     margin: 32px auto;
+    border-image: linear-gradient(0deg, white, red);
+    border-image-slice: 1;
+    border-radius: 50%;
 
 }
 #price-section .container .price-detaile>div .price p{
@@ -317,6 +374,12 @@ a{
     margin: 163px 20px;
     padding: 5px 50px;
     box-sizing: border-box;
+    border-radius: 5px;
+}
+#price-section .price-fotter .overlay .container .contents>div:hover{
+	background-color: rgba(0,255,0,0.2);
+	    transition: .3s ease;
+
 }
 #price-section .price-fotter .overlay .container .contents h3{
 	font-size: 40px;
@@ -357,6 +420,10 @@ a{
 }
 .contuct-middle>div i{
 	font-size: 60px;
+    transition: 0.3s ease;
+}
+.contuct-middle>div i:hover{
+	color: #87d37c;
 }
 .contuct-middle>div h5{
 	font-size: 20px;
@@ -390,13 +457,20 @@ a{
 .contuct-form .message input{
 	padding: 10px 20px;
     color: white;
-    background: green;
+    background: #0c480c;
     border: none;
+    cursor: pointer;
+        border-radius: 5px;
+}
+.contuct-form .message input:hover{
+	background-color: #2f802f;
+	transform: scale(1.1);
 }
 .map img{
 	width: 100%;
     object-fit: cover;
 }
+
 
 
 		/* -----------------------
@@ -426,6 +500,7 @@ a{
 }
 #fotter .conatiner .social-icons i:hover{
 	color: #87d37c;
+	transform: scale(1.1);
 }
 /* -----------------------
 		fotter section end
