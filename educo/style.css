@@ -1,0 +1,706 @@
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #717171;
+}
+h2, h3 , h4, h5{
+	color: black;
+}
+p{
+	font-size: 16px;
+}
+#head{
+}
+.head-top{
+	background-color: #057FD7;
+
+}
+.container .head-left p{
+	font-size: 21px;
+    margin: 10px 0px;
+}
+.container{
+	width: 70%;
+    margin: 0 auto;
+    align-items: center;
+
+}
+#head .head-top .container,.head-bottom .container{
+	    display: flex;
+}
+.container .head-left{
+	width: 50%;
+	color: white;
+	font-size: 16px;
+
+}
+.container .head-right{
+	width: 50%;
+}
+.container .head-right .login{
+	float: right;
+	cursor: pointer;
+	padding: 7px 30px;
+	border-radius: 5px;
+	border: none;
+	font-size: 16px;
+}
+#head{
+	position: sticky;
+	top: 0;
+	z-index: 5;
+	box-shadow: 0 2px 7px black;
+}
+.head-bottom {
+	background-color: white;
+}
+ .head-bottom .container .logo{
+	width: 20%;
+	position: relative;
+	color: black;
+}
+.head-bottom .container .logo:after{
+	content: '\f19d';
+	font-family: 'Font Awesome 5 Pro';
+	position: absolute;
+	top: 3px;
+    left: 0;
+    font-size: 20px;
+    color: #057FD7;
+}
+.head-bottom .container .menu{
+	    width: 60%;
+}
+.head-bottom .container .menu ul{
+	    display: flex;
+}
+.head-bottom .container .menu ul li{
+	list-style: none;
+}
+.head-bottom .container .menu ul li a{
+	text-decoration: none;
+	font-size: 18px;
+	color: black;
+	padding: 0 17px;
+	font-weight: 600;
+	
+}
+.head-bottom .container .menu ul li a:hover{
+	color: #057FD7;
+}
+.head-bottom .container .call{
+	width: 27%;
+}
+.head-bottom .container .call .coll-num{
+	width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    float: left; 
+}
+.head-bottom .container .call i{
+    color: black;
+    width: 100%;
+}
+.head-bottom .container .call p{
+	width: 100%;
+}
+/* 		-------------------------------
+		head section end
+		------------------------------- */
+
+
+	/* 	-------------------------------
+		slider section start
+		------------------------------- */
+#slider{
+	background-image: url('img/slider1.jpg');
+	height: 470px;
+    background-repeat: no-repeat;
+    background-size: cover;
+	}
+.container{
+
+}
+.content {
+	text-align: center;
+    width: 100%;
+    color: #a6775b;
+    padding: 32px 0;
+}
+.content p{
+	font-size: 28px;
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Sofia', cursive;
+}
+.content h2{
+	font-size: 67px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin: 0;
+    font-family: Trirong, serif;
+    color: #a6775b;
+}
+.content .slider-button{
+	    font-size: 20px;
+    padding: 10px 28px;
+    display: inline;
+    border-radius: 5px;
+    background: #a6775b;
+    color: #CCCDCF;
+    border: none;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+/* 		-------------------------------
+		slider section end
+		------------------------------- */
+
+	/* 	-------------------------------
+		our team section sta
+		------------------------------- */
+
+#our-team .team-container{
+	width: 70%;
+	margin: 50px auto;
+}
+.team-container .team-top h2{
+	width: 200px;
+    font-size: 34px;
+    text-transform: uppercase;
+    margin: 50px auto;
+    text-align: center;
+    position: relative;
+}
+.team-container .team-top h2:before, .join-top h2:before,.about-top h2:before,.ourkey-top h2:before, .map-top h2:before, .message-top h2:before{
+	position: absolute;
+    content: "";
+    width: 50%;
+    height: 10px;
+    background: #057FD7;
+    top: 100%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    border-radius: 100px;
+
+}
+.team-container .team-top h2:after, .join-top h2:after,.about-top h2:after,.ourkey-top h2:after, .map-top h2:after, .message-top h2:after{
+	position: absolute;
+	content: "";
+	width: 10%;
+	height: 0px;
+	border-bottom: 9px double white;
+	background: #057FD7;
+	top: 100%;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	border-radius: 100px;
+
+}
+.team-bottom{
+	display: flex;
+}
+.team-bottom>div{
+	width: 22%;
+    padding: 0 20px;
+    text-align: center;
+}
+.team-bottom .img1,.team-bottom .img2,.team-bottom .img3,.team-bottom .img4{
+	background: url('img/protfolio2.jpg');
+	 width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    position: relative;
+    margin: 20px auto;
+    background-position: center;
+}
+.team-bottom .img2{
+	background: url('img/protfolio3.jpg');
+	background-position: center;
+}
+.team-bottom .img3{
+	background: url('img/protfolio6.jpg');
+	background-position: center;
+}
+.team-bottom .img4{
+	background: url('img/protfolio2.jpg');
+	background-position: center;
+}
+.team-bottom .img1:after,.team-bottom .img2:after,.team-bottom .img3:after,.team-bottom .img4:after{
+	position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    background-color: #0078d7c2;
+    top: 50%;
+ 	left: 50%;
+ 	transform: translate(-50%, -50%);
+    z-index: 1;
+    border-radius: 50%;
+    transition: .5s ease;
+    opacity: 0;
+}
+.team-bottom .img1:hover:after,.team-bottom .img2:hover:after,.team-bottom .img3:hover:after,.team-bottom .img4:hover:after{
+  opacity: .7;
+  width: 100%;
+  height: 100%;
+}
+.team-bottom>div h4{
+	text-align: center;
+}
+
+		/* -------------------------------
+		our team section end
+		------------------------------- */
+		/* -------------------------------
+		join us section start
+		------------------------------ */
+#our-team{
+	    padding: 50px 0;
+}
+.background{
+	background-color: #e2e8ed;
+}
+.join-top h2{
+	width: 300px;
+	margin: 0 auto;
+	position: relative;
+	font-size: 34px;
+	text-align: center;
+
+}
+#join-us .container{
+padding: 70px 0;
+}
+.join-bottom{
+	display: flex;
+	background-color: white;
+    padding: 60px;
+        margin: 50px 0;
+
+}
+.join-bottom>div{
+	width: 32%;
+}
+.join-bottom .one h3{
+	width: 150px;
+    height: 150px;
+    margin: 20px auto;
+    text-align: center;
+    border-radius: 50%;
+    background: #167AC6;
+    line-height: 150px;
+    font-size: 34px;
+    color: white;
+    transition: .5s ease;
+    border: 3px solid #167AC6;
+
+}
+.join-bottom .one h3:hover{
+	color: #167AC6;
+	
+	background-color: transparent;
+}
+.join-bottom .one h4, .one p{
+	text-align: center;
+	font-size: 16px;
+}
+.join-bottom .one h4{
+	font-size: 22px;
+	font-weight: 700;
+	margin-bottom: 0;
+}
+		/* -------------------------------
+		join us  section end
+		------------------------------ */
+
+		/* -------------------------------
+		About Me section start
+		------------------------------- */
+#about{
+	    padding: 50px 0;
+}
+#about .about-top{
+	margin: 0 auto;
+    width: 350px;
+}
+#about .about-top h2{
+	width: 200px;
+	position: relative;
+	font-size: 34px;
+	text-align: center;
+	margin: 0 auto;
+}
+#about .about-bottom{
+	display: flex;
+	align-items: center;
+}
+#about .about-bottom .image{
+	width: 50%;
+}
+#about .about-bottom .image img{
+	width: 100%;
+
+}
+#about .about-bottom .text{
+	width: 50%;
+	padding: 0 50px;
+	font-family: 'Trirong', serif;
+
+}
+#about .about-bottom .text h3{
+	font-size: 30px;
+    margin: 0;
+    font-weight: 400;
+    font-family: 'Trirong', serif;
+    text-transform: capitalize;
+}
+#about .about-bottom .text h5{
+	font-size: 20px;
+    font-weight: 200;
+    color: blue;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: capitalize;
+}
+#about .about-bottom .text p{
+	max-width: 550px;
+	font-weight: 100;
+}
+#about .about-bottom .text button{
+	font-size: 16px;
+    padding: 10px 25px;
+    border: 2px solid #167AC6;
+    border-radius: 5px;
+    font-weight: 500;
+}
+#about .about-bottom .text button:hover{
+	background-color: #167AC6;
+	border-radius: 0;
+	cursor: pointer;
+}
+		/* -------------------------------
+		About Me section end
+		----------------------------*/
+		/* -------------------------------
+		our key section start
+		------------------------------- */
+
+#our-key .ourkey-top h2{
+	width: 293px;
+    text-align: center;
+    margin: 18px auto;
+    padding: 10px;
+    font-size: 34px;
+    position: relative;
+}
+#our-key .background{
+	padding: 50px 0;
+}
+#our-key .container{
+	background-color: white;
+}
+#our-key .container .text{
+	display: flex;
+}
+#our-key .container .text>div{
+	width: 32%;
+    padding: 20px;
+    padding-top: 50px;
+        text-align: center;
+}
+#our-key .container .text .one{
+	margin: 0 auto;
+}
+#our-key .container .text .one i{
+	width: 150px;
+    height: 150px;
+    background: #167AC6;
+    border-radius: 50%;
+    border: 2px solid #167AC6;
+    text-align: center;
+    line-height: 150px;
+    color: white;
+    font-size: 77px;
+    transition: .5s ease;
+}
+#our-key .container .text .one i:hover{
+	background-color: transparent;
+	color: #167AC6;
+}
+
+		/* -------------------------------
+		our key section end
+		-------------------------------  */
+
+		/* -------------------------------
+				video section start
+		-------------------------------  */
+#video .background{
+	background: url('img/slider1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	z-index: 1;
+}
+#video .background:after{
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	opacity: .6;
+	z-index: -1;
+	top: 0;
+	left: 0;
+}
+.content-video{
+	display: flex;
+	align-items: center;
+}
+.content-video .contents{
+	width: 50%;
+}
+.content-video .contents h3{
+	font-size: 24px;
+    color: white;
+    text-transform: capitalize;
+}
+.content-video .contents p{
+	    color: white;
+    text-align: justify;
+}
+.content-video .contents button{
+	font-size: 16px;
+    color: white;
+    background: #167ac6;
+    padding: 13px 35px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+.content-video .contents button:hover{
+	border: 2px solid #167ac6;
+	background-color: white;
+	color: #167ac6;
+}
+.content-video .videos{
+	width: 50%;
+	text-align: center;
+    padding: 50px 0;
+}
+.content-video .videos video{
+	width: 80%;
+
+}
+
+		/*  -------------------------------
+				video section end
+		------------------------------- -- */
+
+		/* -------------------------------
+				maps section Start
+		-------------------------------  */
+#map{
+	padding: 50px 0;
+}
+.map-top{
+	width:  220px;
+    margin: 0 auto;
+
+}
+.map-top h2{
+	font-size: 34px;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    text-transform: capitalize;
+}
+.maps p{
+	border: 1px solid #5269d2;
+}
+
+		/* -------------------------------
+				maps section end
+		-------------------------------  */
+
+
+		/* -------------------------------
+				message section start
+		------------------------------- */
+
+#message{
+	margin: 50px 0 0 0;
+}
+
+.message-top{
+	width:  300px;
+    margin: 30px auto;
+
+}
+.message-top h2{
+	font-size: 34px;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    text-transform: capitalize;
+}
+.container .contuct-form{
+	    display: flex;
+	width: 100%;
+}
+.container .contuct-form .form{
+	width: 100%;
+}
+.container .contuct-form .form form input{
+	width: 99%;
+    padding: 12px 0;
+    margin: 13px 0;
+}
+.container .contuct-form .message{
+	width: 100%;
+    margin: 13px 14px;
+}
+.message button{
+	font-size: 14px;
+    padding: 13px 50px;
+    border: 2px solid #167AC6;
+    background: #167AC6;
+    color: white;
+    float: right;
+}
+.message button:hover{
+	background-color: white;
+	color:  #167AC6;
+}
+.inform{
+	background: url('img/background.jpg');
+	height: 300px;
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    position: relative;
+}
+.inform .overlay{
+	position: absolute;
+	content: "";
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+.info-content{
+	    display: flex;
+	    align-items: center;
+	    line-height: 250px;
+}
+.info-content p{
+	width: 50%;
+	font-size: 24px;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-family: 'Trirong', serif;
+}
+.info-content form{
+	width: 35%;
+}
+.info-content form input{
+	padding: 10px 10px;
+    width: 90%;
+}
+.info-content .confirm{
+	width: 15%;
+
+}
+.info-content .confirm button{
+	padding: 10px 50px;
+	font-size: 14px;
+	border: 2px solid #167AC6;
+	background-color: white;
+	color: #167AC6;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: .3s ease;
+}
+.info-content .confirm button:hover{
+	background-color: #167AC6;
+	color: white;
+}
+		/* -------------------------------
+				message section start
+		------------------------------- */
+		/* -------------------------------
+				contuct section start
+		-------------------------------
+ */
+#contuct{
+	background-color: #202020;
+}
+#contuct h2{
+	color: white;
+
+}
+#contuct .container .contuct-content{
+	display: flex;
+
+}
+.contuct-content>div{
+	width: 33%;
+    padding: 10px;
+}
+.contuct-content .about .icons i{
+	color: white;
+    font-size: 20px;
+    padding: 10px 10px;
+    border-radius: 50%;
+    border: 1px solid transparent;
+    margin-left: 10px;
+    transition: .3s;
+}
+.contuct-content .about .icons i:hover{
+	border: 1px solid white;
+}
+.contuct-content .find-us .address, .Email, .phone{
+	display: flex;
+    align-items: center;
+}
+.contuct-content i{
+	font-size: 20px;
+	padding-right: 10px;
+    color: white;
+}
+
+/* -------------------------------
+				contuct section end
+		-------------------------------
+ */
+
+/*  -------------------------------
+				fotter section start
+		-------------------------------  */
+#fotter{
+	background-color: #000;
+
+}
+#fotter .container{
+	text-align: center;
+}
+#fotter .container p{
+	padding: 50px;
+    margin: 0;
+    color: white;
+}
+
+		  /* -------------------------------
+				fotter section end
+		-------------------------------  */
